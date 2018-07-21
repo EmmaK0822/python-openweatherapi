@@ -8,8 +8,6 @@ Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
 But, if pressed, how would you **prove** it? 
 
-![Equator](equatorsign.png)
-
 ## Objective
 
 The objective is to build a series of scatter plots to showcase the following relationships:
@@ -18,8 +16,6 @@ The objective is to build a series of scatter plots to showcase the following re
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
-
-
 
 ## References
 
