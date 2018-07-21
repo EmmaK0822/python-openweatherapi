@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Emma's Data Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand_image" src=".\Resources\assets\EbK_mint.png" class="img-responsive">
+                </a>
+                <a class="navbar-brand" href="index.html" id="navbar-title">Weather Analysis</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                    <a href="temp.html">Max Temperature</a>
+                                </li>
+                                <li>
+                                    <a href="humidity.html">Humidity</a>
+                                </li>
+                                <li>
+                                    <a href="cloud.html">Cloudiness</a>
+                                </li>
+                                <li>
+                                    <a href="wind.html">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-8" >
+            <div class="col-md-12 column">
+                <article>
+                    <h1>Cloudiness</h1>
+                    <hr>
+                    <div class="row">
+                        <img src=".\Resources\assets\images\Fig3.png" alt="figure3" class="plot-img">
+                
+                        <div class="plot-column">
+                            <p>
+                                According to NASA, Clouds also tend to form in abundance in the middle latitudes 60 degrees north and south of the equator. 
+                                This is where the edges of polar and mid-latitude (or Ferrel) circulation cells collide and push air upward, fueling the formation of the large-scale frontal systems that dominate weather patterns in the mid-latitudes. 
+                                While clouds tend to form where air rises as part of atmospheric circulation patterns, descending air inhibits cloud formation. 
+                                Since air descends between about 15 and 30 degrees north and south of the equator, clouds are rare and deserts are common at this latitude.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            </div>
+            
+            <div class="col-xs-12 col-md-4">
+            <div class="col-md-12 column">
+                <article>
+                    <h1>Visualizations</h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <img src=".\Resources\assets\images\Fig1.png" alt="figure1" class="img-thumbnail">
+                            <img src=".\Resources\assets\images\Fig2.png" alt="figure2" class="img-thumbnail">
+                            <img src=".\Resources\assets\images\Fig3.png" alt="figure3" class="img-thumbnail" id="select">
+                            <img src=".\Resources\assets\images\Fig4.png" alt="figure4" class="img-thumbnail">
+                        </div>  
+                    </div>
+                </article>
+            </div>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+
+    <footer>
+        <p> @Copyright Emma Bobae Kong 2018</p>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+
+</html>
